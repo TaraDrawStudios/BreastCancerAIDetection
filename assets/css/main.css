@@ -2274,12 +2274,17 @@ button,
     padding-top: 0; }
 /* Custom image sizing fix */
 .ribbon {
-  max-width: 100%;
+  max-width: 400px;
+  width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 600px) {
   .ribbon {
-    max-width: 400px;
+    max-width: 280px;
   }
 }
+
